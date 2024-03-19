@@ -2,16 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;`
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 100vh;
     background-image: url("8c98994518b575bfd8c949e91d20548b.jpg");
     background-position: center;
 }
 
 .container {
-    width: 320px;
+    width: 90%;
+    max-width: 400px;
     background-color: rgba(255, 255, 255, 0.9); /* Adding opacity to the background color */
     border-radius: 10px;
     padding: 0px 20px 20px 20px;
