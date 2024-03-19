@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    #height: 100vh;
     background-image: url("8c98994518b575bfd8c949e91d20548b.jpg");
     background-position: center;
 }
