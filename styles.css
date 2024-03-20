@@ -13,10 +13,11 @@ body {
 .container {
     width: 80%;
     max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.9); /* Adding opacity to the background color */
+    background-color: rgba(255, 255, 255, 1); /* Adding opacity to the background color */
     border-radius: 10px;
     padding: 0px 20px 20px 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #128c7e;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
@@ -28,7 +29,7 @@ input[type="text"] {
     width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #128c7e;
     border-radius: 5px;
 }
 
@@ -36,8 +37,8 @@ button {
     width: 100%;
     padding: 10px;
     background-color: #25d366;
-    color: #fff;
-    border: none;
+    color: white;
+    border: 1px solid #128c7e;
     border-radius: 5px;
     cursor: pointer;
 }
